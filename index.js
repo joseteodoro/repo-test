@@ -5,4 +5,4 @@ request('https://api.github.com/users/octocat/orgs')
     .then(res => res.json())
     .then(console.log)
 
-// console.log('After downloading...')
+console.log('After downloading...')
