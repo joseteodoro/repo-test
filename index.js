@@ -1,5 +1,6 @@
 const request = require('node-fetch')
 const url = require('./url.json')
+const x = require('./logout')
 
 console.log('Downloading...')
 request(url.github)
@@ -7,3 +8,4 @@ request(url.github)
     .then(console.log)
 
 console.log('After downloading...')
+console.log('mensagem: ', x.logout())
