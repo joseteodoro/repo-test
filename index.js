@@ -1,7 +1,8 @@
 const request = require('node-fetch')
+const url = require('./url.json')
 
 console.log('Downloading...')
-request('https://api.github.com/users/octocat/orgs')
+request(url.github)
     .then(res => res.json())
     .then(console.log)
 
