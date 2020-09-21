@@ -33,3 +33,10 @@ const construindoObjetos = (userName, userId) => {
     const user1 = { name: userName, id: userId } // assim eu declaro as chaves
     const user2 = { userName, userId } // assim eu declaro o objeto como tendo o mesmo nome das variaveis que entraram
 }
+
+const fn = () => {
+    // funcao sendo declarada
+    return { status: 200, response: 'banana' }
+}
+
+fn() // funcao sendo invocada
