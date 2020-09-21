@@ -36,7 +36,7 @@ const construindoObjetos = (userName, userId) => {
 
 const fn = () => {
     // funcao sendo declarada
-    return { status: 200, response: 'banana' }
+    return { status: 200, response: 'banana' } // declarei o objeto na hora de retornar a funcao e ele que volta como resposta da invocacao da funcao
 }
 
 fn() // funcao sendo invocada
